@@ -12,13 +12,14 @@
         <div class="nav-msg">商务合作邮箱：yuanchain@yuan.org <span>中文</span></div>
         </ul>
       </div>
+
           <div class="content-body">
             <div>
             	<h1>原链云矿机—火爆预售</h1>
 		            <h4>高效节能链上挖矿，挖矿就这么简单</h4>
-		            <div class="awm-1"></div>
+		            <div class="awm-1"><img src="../assets/矿机客服大2.png" alt=""></div>
 		            <p>手机扫描二维码预定</p>
-		            <div class="awm-2"></div>
+		            <div class="awm-2"><img src="../assets/矿机客服小-跟随部分.png" alt=""></div>
 		            <p class="p-kf">云矿机限量发售，详情请扫码咨询客服</p>		          
             </div>
           </div>  
@@ -40,6 +41,7 @@ export default {
   margin: 0;
   padding: 0;
 }
+
 h1{
   color: #fff;
   margin-top: 170px;
@@ -58,22 +60,13 @@ h4{
   margin: 48px auto 17px;
   width: 200px;
   height: 200px;
-  background: url(../assets/矿机客服大2.png);
 }
 .awm-2{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: url(../assets/矿机客服小-跟随部分.png);
-  z-index: 10005;
-  left: 46%;
-  top: 750px;
+  margin-top: 130px;
 }
 .p-kf{
-  position: absolute;
-  left: 43%;
-  top: 870px;
-  color: #fff;
+  margin-top: -30px;
+  color: #000;
 }
 .bg-top-nav{
   width: 100%;
@@ -131,8 +124,7 @@ h4{
 .bg-top-bar{
   width: 100%;
   height: 88px;
-  margin-top: 201px;
-  opacity: .9;
+  margin-top: -77px;
   background-color:rgba(219,222,222,.9);
 
 }
