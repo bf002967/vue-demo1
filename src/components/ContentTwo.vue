@@ -10,6 +10,7 @@
       		<div class="exp-machine-header">
       			<img src="../assets/矿机图标.png" alt="">
       			<h2>体验云矿机N030型</h2>
+            <div class="tip"><p>活 动</p></div>
       		</div>
       		<hr>
       		<div class="exp-machine-content">
@@ -114,6 +115,9 @@ li{
 a:visited{
 	color: #000;
 }
+.hot-machine a:hover .hot-type{
+	transform: scale(1.05);
+}
 .content-body{
 	height: 843px;
 	width: 1200px;
@@ -125,6 +129,24 @@ a:visited{
 .hot-machine{
 	height: 400px;
 
+}
+.tip{
+  position: absolute;
+  left:703px; 
+  width: 0;
+  height: 0;
+  border-top: 90px solid #2fb1e2;
+  border-left: 90px solid transparent;
+  border-bottom: 90px solid transparent;
+}
+.tip p{
+  transform:rotate(45deg);
+  width: 50px;
+  position: relative;
+  top: -85px;
+  left: -50px;
+  color: #fff;
+  font-size: 17px;
 }
 .exp-machine-ykj{
 	float: left;
